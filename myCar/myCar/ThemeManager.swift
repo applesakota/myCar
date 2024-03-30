@@ -196,6 +196,18 @@ struct ThemeForegroundStyleModifier: ViewModifier {
     
 }
 
+/// ViewModifier will set up background color for our content, with opacity that we will set
+struct ThemeBackgroundStyleModifier: ViewModifier {
+    @EnvironmentObject var themeManager: ThemeManager
+    let themeColor: ThemeColorIdentifier
+    let opacity: Double
+    
+    func body(content: Content) -> some View {
+        let color = themeManager.colorPalette.color(for: themeColor).opacity(opacity)
+        return content.background(color)
+    }
+}
+
 extension View {
     func themedFont(_ themeFontName: ThemeFontIdentifier, style: UIFont.TextStyle, overrideFontSize: DynamicTypeSize? = nil) -> some View {
         return modifier(ScaledFont(themeFontName: themeFontName, size: style, overrideFontSize: overrideFontSize))
@@ -203,5 +215,9 @@ extension View {
     
     func themeForegroundStyle(_ themeColor: ThemeColorIdentifier, opacity: Double = 1) -> some View {
         return modifier(ThemeForegroundStyleModifier(themeColor: themeColor, opacity: opacity))
+    }
+    
+    func themeBackground(_ themeColor: ThemeColorIdentifier, opacity: Double = 1) -> some View {
+        return modifier(ThemeBackgroundStyleModifier(themeColor: themeColor, opacity: opacity))
     }
 }
