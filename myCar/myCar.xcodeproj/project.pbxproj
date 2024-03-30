@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E3FA9052BB7383100A3DAC3 /* SuperchargerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FA9042BB7383100A3DAC3 /* SuperchargerView.swift */; };
+		9E3FA9072BB73EA100A3DAC3 /* SuperchargerEnvironments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FA9062BB73EA100A3DAC3 /* SuperchargerEnvironments.swift */; };
+		9E3FA9082BB74E2A00A3DAC3 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579462BB56F8E00779448 /* Montserrat-Black.ttf */; };
+		9E3FA9092BB74E2E00A3DAC3 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579482BB56F8E00779448 /* Montserrat-BlackItalic.ttf */; };
+		9E3FA90A2BB74E3000A3DAC3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5793B2BB56F8C00779448 /* Montserrat-Bold.ttf */; };
+		9E3FA90B2BB74E3300A3DAC3 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5793E2BB56F8D00779448 /* Montserrat-BoldItalic.ttf */; };
+		9E3FA90C2BB74E3700A3DAC3 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5793A2BB56F8C00779448 /* Montserrat-ExtraBold.ttf */; };
+		9E3FA90D2BB74E3A00A3DAC3 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579382BB56F8C00779448 /* Montserrat-ExtraBoldItalic.ttf */; };
+		9E3FA90E2BB74E3C00A3DAC3 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579442BB56F8E00779448 /* Montserrat-ExtraLight.ttf */; };
+		9E3FA90F2BB74E3F00A3DAC3 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579472BB56F8E00779448 /* Montserrat-ExtraLightItalic.ttf */; };
+		9E3FA9102BB74E4300A3DAC3 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579392BB56F8C00779448 /* Montserrat-Italic.ttf */; };
+		9E3FA9112BB74E4600A3DAC3 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579432BB56F8D00779448 /* Montserrat-Light.ttf */; };
+		9E3FA9122BB74E4900A3DAC3 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5793D2BB56F8D00779448 /* Montserrat-LightItalic.ttf */; };
+		9E3FA9132BB74E4C00A3DAC3 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579422BB56F8D00779448 /* Montserrat-Medium.ttf */; };
+		9E3FA9142BB74E4F00A3DAC3 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5793F2BB56F8D00779448 /* Montserrat-MediumItalic.ttf */; };
+		9E3FA9152BB74E5200A3DAC3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579402BB56F8D00779448 /* Montserrat-Regular.ttf */; };
+		9E3FA9162BB74E5700A3DAC3 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579452BB56F8E00779448 /* Montserrat-SemiBold.ttf */; };
+		9E3FA9172BB74E5A00A3DAC3 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579412BB56F8D00779448 /* Montserrat-SemiBoldItalic.ttf */; };
+		9E3FA9182BB74E5D00A3DAC3 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579492BB56F8E00779448 /* Montserrat-Thin.ttf */; };
+		9E3FA9192BB74E6000A3DAC3 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5793C2BB56F8D00779448 /* Montserrat-ThinItalic.ttf */; };
 		9ED72D5A2BB4195800E00A8D /* MyCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED72D592BB4195800E00A8D /* MyCarApp.swift */; };
 		9ED72D5E2BB4195A00E00A8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED72D5D2BB4195A00E00A8D /* Assets.xcassets */; };
 		9ED72D622BB4195A00E00A8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED72D612BB4195A00E00A8D /* Preview Assets.xcassets */; };
@@ -14,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E3FA9042BB7383100A3DAC3 /* SuperchargerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperchargerView.swift; sourceTree = "<group>"; };
+		9E3FA9062BB73EA100A3DAC3 /* SuperchargerEnvironments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperchargerEnvironments.swift; sourceTree = "<group>"; };
+		9E3FA91A2BB8116800A3DAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ED72D562BB4195800E00A8D /* myCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED72D592BB4195800E00A8D /* MyCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarApp.swift; sourceTree = "<group>"; };
 		9ED72D5D2BB4195A00E00A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +74,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E3FA9012BB7378100A3DAC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E3FA9022BB737A500A3DAC3 /* Global Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E3FA9022BB737A500A3DAC3 /* Global Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E3FA9062BB73EA100A3DAC3 /* SuperchargerEnvironments.swift */,
+				9E3FA9032BB737F800A3DAC3 /* Basic Views */,
+			);
+			path = "Global Views";
+			sourceTree = "<group>";
+		};
+		9E3FA9032BB737F800A3DAC3 /* Basic Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E3FA9042BB7383100A3DAC3 /* SuperchargerView.swift */,
+			);
+			path = "Basic Views";
+			sourceTree = "<group>";
+		};
+		9E3FA91B2BB8150500A3DAC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ED72D5F2BB4195A00E00A8D /* myCar.entitlements */,
+				9E3FA91A2BB8116800A3DAC3 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9ED72D4D2BB4195800E00A8D = {
 			isa = PBXGroup;
 			children = (
@@ -70,11 +127,12 @@
 		9ED72D582BB4195800E00A8D /* myCar */ = {
 			isa = PBXGroup;
 			children = (
+				9EE579362BB56F4B00779448 /* Fonts */,
 				9ED72D592BB4195800E00A8D /* MyCarApp.swift */,
 				9EE579342BB56DD700779448 /* ThemeManager.swift */,
-				9EE579362BB56F4B00779448 /* Fonts */,
+				9E3FA9012BB7378100A3DAC3 /* Views */,
 				9EE5794A2BB5702000779448 /* Resources */,
-				9ED72D5F2BB4195A00E00A8D /* myCar.entitlements */,
+				9E3FA91B2BB8150500A3DAC3 /* Supporting Files */,
 				9ED72D602BB4195A00E00A8D /* Preview Content */,
 			);
 			path = myCar;
@@ -179,8 +237,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3FA9172BB74E5A00A3DAC3 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				9E3FA9152BB74E5200A3DAC3 /* Montserrat-Regular.ttf in Resources */,
+				9E3FA9112BB74E4600A3DAC3 /* Montserrat-Light.ttf in Resources */,
+				9E3FA90B2BB74E3300A3DAC3 /* Montserrat-BoldItalic.ttf in Resources */,
+				9E3FA9122BB74E4900A3DAC3 /* Montserrat-LightItalic.ttf in Resources */,
+				9E3FA9182BB74E5D00A3DAC3 /* Montserrat-Thin.ttf in Resources */,
+				9E3FA90D2BB74E3A00A3DAC3 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				9E3FA9102BB74E4300A3DAC3 /* Montserrat-Italic.ttf in Resources */,
+				9E3FA90A2BB74E3000A3DAC3 /* Montserrat-Bold.ttf in Resources */,
 				9ED72D622BB4195A00E00A8D /* Preview Assets.xcassets in Resources */,
+				9E3FA90E2BB74E3C00A3DAC3 /* Montserrat-ExtraLight.ttf in Resources */,
+				9E3FA9092BB74E2E00A3DAC3 /* Montserrat-BlackItalic.ttf in Resources */,
 				9ED72D5E2BB4195A00E00A8D /* Assets.xcassets in Resources */,
+				9E3FA9142BB74E4F00A3DAC3 /* Montserrat-MediumItalic.ttf in Resources */,
+				9E3FA9192BB74E6000A3DAC3 /* Montserrat-ThinItalic.ttf in Resources */,
+				9E3FA9132BB74E4C00A3DAC3 /* Montserrat-Medium.ttf in Resources */,
+				9E3FA9162BB74E5700A3DAC3 /* Montserrat-SemiBold.ttf in Resources */,
+				9E3FA90F2BB74E3F00A3DAC3 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				9E3FA90C2BB74E3700A3DAC3 /* Montserrat-ExtraBold.ttf in Resources */,
+				9E3FA9082BB74E2A00A3DAC3 /* Montserrat-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3FA9072BB73EA100A3DAC3 /* SuperchargerEnvironments.swift in Sources */,
+				9E3FA9052BB7383100A3DAC3 /* SuperchargerView.swift in Sources */,
 				9ED72D5A2BB4195800E00A8D /* MyCarApp.swift in Sources */,
 				9EE579352BB56DD700779448 /* ThemeManager.swift in Sources */,
 			);
@@ -318,14 +396,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = myCar/myCar.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "myCar/Supporting Files/myCar.entitlements";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"myCar/Preview Content\"";
-				DEVELOPMENT_TEAM = 5P8KN8QGKH;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "myCar/Supporting Files/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -341,8 +420,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = myCar.myCar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -357,14 +437,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = myCar/myCar.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "myCar/Supporting Files/myCar.entitlements";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"myCar/Preview Content\"";
-				DEVELOPMENT_TEAM = 5P8KN8QGKH;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "myCar/Supporting Files/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -380,8 +461,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = myCar.myCar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

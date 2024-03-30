@@ -24,16 +24,22 @@ struct AppStartingView: View {
     var body: some View {
         VStack {
             Text(prompt)
-                .themedFont(.semibold, style: .body)
+                .themedFont(.bold, style: .caption1)
                 .themeForegroundStyle(.red)
             Text(prompt)
                 .themedFont(.bolditalic, style: .caption1)
                 .themeForegroundStyle(.red, opacity: 0.8)
             Text(prompt)
-                .themedFont(.italic, style: .caption2)
+                .themedFont(.italic, style: .caption1)
                 .themeForegroundStyle(.warning)
             Text(prompt)
+                .themedFont(.extrabold, style: .caption1)
+            SuperchargerView(title: "Rancheview Dr. Richardson", value: "4 / 10 available", distance: "1.2km", icon: "location-dot-solid")
+                .superchargerIconColor(.rawValue(.gray))
+                .superchargerTitleColor(.black)
+                .superchargerValueColor(.rawValue(.gray))
         }
+        .padding()
         .environmentObject(themeManager)
     }
 }
