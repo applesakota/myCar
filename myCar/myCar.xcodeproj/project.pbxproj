@@ -27,6 +27,8 @@
 		9E3FA9172BB74E5A00A3DAC3 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579412BB56F8D00779448 /* Montserrat-SemiBoldItalic.ttf */; };
 		9E3FA9182BB74E5D00A3DAC3 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE579492BB56F8E00779448 /* Montserrat-Thin.ttf */; };
 		9E3FA9192BB74E6000A3DAC3 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5793C2BB56F8D00779448 /* Montserrat-ThinItalic.ttf */; };
+		9E3FA91D2BB82FFF00A3DAC3 /* StatisticItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FA91C2BB82FFF00A3DAC3 /* StatisticItemView.swift */; };
+		9E6240552BB9C4550030281D /* StatisticItemEnvironments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6240542BB9C4550030281D /* StatisticItemEnvironments.swift */; };
 		9ED72D5A2BB4195800E00A8D /* MyCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED72D592BB4195800E00A8D /* MyCarApp.swift */; };
 		9ED72D5E2BB4195A00E00A8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED72D5D2BB4195A00E00A8D /* Assets.xcassets */; };
 		9ED72D622BB4195A00E00A8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED72D612BB4195A00E00A8D /* Preview Assets.xcassets */; };
@@ -37,6 +39,8 @@
 		9E3FA9042BB7383100A3DAC3 /* SuperchargerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperchargerView.swift; sourceTree = "<group>"; };
 		9E3FA9062BB73EA100A3DAC3 /* SuperchargerEnvironments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperchargerEnvironments.swift; sourceTree = "<group>"; };
 		9E3FA91A2BB8116800A3DAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3FA91C2BB82FFF00A3DAC3 /* StatisticItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticItemView.swift; sourceTree = "<group>"; };
+		9E6240542BB9C4550030281D /* StatisticItemEnvironments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticItemEnvironments.swift; sourceTree = "<group>"; };
 		9ED72D562BB4195800E00A8D /* myCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED72D592BB4195800E00A8D /* MyCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarApp.swift; sourceTree = "<group>"; };
 		9ED72D5D2BB4195A00E00A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				9E3FA9062BB73EA100A3DAC3 /* SuperchargerEnvironments.swift */,
+				9E6240542BB9C4550030281D /* StatisticItemEnvironments.swift */,
 				9E3FA9032BB737F800A3DAC3 /* Basic Views */,
 			);
 			path = "Global Views";
@@ -95,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				9E3FA9042BB7383100A3DAC3 /* SuperchargerView.swift */,
+				9E3FA91C2BB82FFF00A3DAC3 /* StatisticItemView.swift */,
 			);
 			path = "Basic Views";
 			sourceTree = "<group>";
@@ -268,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3FA9072BB73EA100A3DAC3 /* SuperchargerEnvironments.swift in Sources */,
+				9E6240552BB9C4550030281D /* StatisticItemEnvironments.swift in Sources */,
 				9E3FA9052BB7383100A3DAC3 /* SuperchargerView.swift in Sources */,
 				9ED72D5A2BB4195800E00A8D /* MyCarApp.swift in Sources */,
+				9E3FA91D2BB82FFF00A3DAC3 /* StatisticItemView.swift in Sources */,
 				9EE579352BB56DD700779448 /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
