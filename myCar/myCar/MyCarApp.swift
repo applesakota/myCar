@@ -24,21 +24,12 @@ struct AppStartingView: View {
     
     var body: some View {
         VStack {
-            Text(prompt)
-                .themedFont(.bold, style: .caption1)
-                .themeForegroundStyle(.red)
-            Text(prompt)
-                .themedFont(.bolditalic, style: .caption1)
-                .themeForegroundStyle(.red, opacity: 0.8)
-            Text(prompt)
-                .themedFont(.italic, style: .caption1)
-                .themeForegroundStyle(.warning)
-            Text(prompt)
-                .themedFont(.extrabold, style: .caption1)
-            SuperchargerView(title: "Rancheview Dr. Richardson", value: "4 / 10 available", distance: "1.2km", icon: "location-dot-solid")
-                .superchargerIconColor(.rawValue(.gray))
-                .superchargerTitleColor(.black)
-                .superchargerValueColor(.rawValue(.gray))
+            
+            HeadingView(title: "Statistics", value: ". . .") {
+                // Call some action
+                print("Statistics clicked")
+            }
+            .headingValueColor(.rawValue(.gray))
             
             ScrollView(.horizontal) {
                 LazyHGrid(rows: rows) {
@@ -56,6 +47,24 @@ struct AppStartingView: View {
                         .statisticItemValueColor(.rawValue(.gray))
                 }
             }
+            
+            HeadingView(title: "Nearby Supercharges", value: "View All") {
+                // Call some action
+                print("Item clicked")
+            }
+            .headingValueColor(.rawValue(.gray))
+
+            
+            SuperchargerView(title: "Rancheview Dr. Richardson", value: "4 / 10 available", distance: "1.2km", icon: "location-dot-solid")
+                .superchargerIconColor(.rawValue(.gray))
+                .superchargerTitleColor(.black)
+                .superchargerValueColor(.rawValue(.gray))
+            
+            SuperchargerView(title: "Rancheview Dr. Richardson", value: "4 / 10 available", distance: "1.2km", icon: "location-dot-solid")
+                .superchargerIconColor(.rawValue(.gray))
+                .superchargerTitleColor(.black)
+                .superchargerValueColor(.rawValue(.gray))
+
         }
         .padding()
         .environmentObject(themeManager)
