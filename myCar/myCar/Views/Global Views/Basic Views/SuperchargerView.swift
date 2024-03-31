@@ -55,10 +55,10 @@ struct SuperchargerView: View {
         .padding(16)
         .background {
             ZStack {
-                RoundedRectangle(cornerRadius: 5)
+                RoundedRectangle(cornerRadius: cornerRadius)
                     .themeForegroundStyle(.solidGray)
                 
-                RoundedRectangle(cornerRadius: 5)
+                RoundedRectangle(cornerRadius: cornerRadius)
                     .stroke(theme.solidGreyColor)
             }
         }
