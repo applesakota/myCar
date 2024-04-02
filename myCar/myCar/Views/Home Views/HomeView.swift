@@ -106,7 +106,7 @@ struct HomeView: View {
 
                     .withOffsetTracking { offset in
                         
-                        if offset.y != 0 {
+                        if offset.y < -50 {
                             withAnimation {
                                 hideHeader = false
                             }
