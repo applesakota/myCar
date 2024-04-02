@@ -14,6 +14,8 @@ struct HomeView: View {
     @State private var hideHeader = true
     @State private var scrollPosition: CGPoint = .zero
     
+    let user: UserModel
+    
     let rows = [GridItem(.fixed(200))]
     let scrollHeight: CGFloat = 10
     
@@ -27,13 +29,13 @@ struct HomeView: View {
                 VStack {
                     if !hideHeader {
                         OffsetCarView(
-                            title: "Tesla Model X",
-                            value: "Charging: ⚡️50%",
+                            title: user.car,
+                            value: "Charging: ⚡️\(user.carBattery)%",
                             image: "section-exterior-profile-removebg-preview"
                         )
                     } else {
                         CarView(
-                            title: "Good Morning, Billy",
+                            title: "Good Morning, \(user.name)",
                             value: "Charging your car...",
                             image: "section-exterior-profile-removebg-preview",
                             description: "time to end of charge 49 min")
@@ -56,7 +58,7 @@ struct HomeView: View {
                                 LazyHGrid(rows: rows) {
                                     StatisticItemView(
                                         icon: "car-battery-solid",
-                                        title: "240 Volt",
+                                        title: "\(user.voltage) Volt",
                                         value: "Voltage"
                                     )
                                         .statisticItemIconColor(.red)
@@ -64,7 +66,7 @@ struct HomeView: View {
                                         .statisticItemValueColor(.rawValue(.gray))
                                     StatisticItemView(
                                         icon: "battery-half-solid",
-                                        title: "540 Km",
+                                        title: "\(user.batteryLength) Km",
                                         value: "Remaining charge"
                                     )
                                         .statisticItemIconColor(.rawValue(.green))
@@ -72,7 +74,7 @@ struct HomeView: View {
                                         .statisticItemValueColor(.rawValue(.gray))
                                     StatisticItemView(
                                         icon: "plug-circle-bolt-solid",
-                                        title: "240 Volt",
+                                        title: "\(user.fastCharger) Volt",
                                         value: "Fast charger"
                                     )
                                         .statisticItemIconColor(.yellow)
@@ -91,8 +93,8 @@ struct HomeView: View {
                             }
                             .headingValueColor(.rawValue(.gray))
                             
-                            ForEach(0...5, id: \.self) {_ in
-                                SuperchargerView(title: "Rancheview Dr. Richardson", value: "4 / 10 available", distance: "1.2km", icon: "location-dot-solid")
+                            ForEach(user.supercharges, id: \.self) { supercharger in
+                                SuperchargerView(title: supercharger.name, value: "\(supercharger.availability) available", distance: "\(supercharger.distance) km", icon: "location-dot-solid")
                                     .superchargerIconColor(.rawValue(.gray))
                                     .superchargerTitleColor(.black)
                                     .superchargerValueColor(.rawValue(.gray))
@@ -116,7 +118,7 @@ struct HomeView: View {
                         }
                     }
                     .background {
-                        RoundedRectangle(cornerRadius: 10)
+                        UnevenRoundedRectangle(cornerRadii: .init(topLeading: 10, topTrailing: 10))
                             .foregroundStyle(Color.white)
                     }
                 }
@@ -132,6 +134,6 @@ struct HomeView: View {
 
 
 #Preview {
-    HomeView()
+    HomeView(user: UserModel.userModelInstance)
         .environmentObject(ThemeManager())
 }

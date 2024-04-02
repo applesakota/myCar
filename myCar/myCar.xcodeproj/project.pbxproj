@@ -37,6 +37,9 @@
 		9E6240622BBB0FCD0030281D /* CarEnvironments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6240612BBB0FCD0030281D /* CarEnvironments.swift */; };
 		9E6240652BBB17CC0030281D /* ScrollViewOffsetTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6240642BBB17CC0030281D /* ScrollViewOffsetTracker.swift */; };
 		9E6240672BBB1C3C0030281D /* OffsetCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6240662BBB1C3C0030281D /* OffsetCarView.swift */; };
+		9E62406C2BBBF8D50030281D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62406B2BBBF8D50030281D /* UserModel.swift */; };
+		9E62406E2BBBF9E10030281D /* SuperchargerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62406D2BBBF9E10030281D /* SuperchargerModel.swift */; };
+		9E6240712BBBFA7D0030281D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6240702BBBFA7D0030281D /* UserViewModel.swift */; };
 		9ED72D5A2BB4195800E00A8D /* MyCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED72D592BB4195800E00A8D /* MyCarApp.swift */; };
 		9ED72D5E2BB4195A00E00A8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED72D5D2BB4195A00E00A8D /* Assets.xcassets */; };
 		9ED72D622BB4195A00E00A8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED72D612BB4195A00E00A8D /* Preview Assets.xcassets */; };
@@ -57,6 +60,9 @@
 		9E6240612BBB0FCD0030281D /* CarEnvironments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarEnvironments.swift; sourceTree = "<group>"; };
 		9E6240642BBB17CC0030281D /* ScrollViewOffsetTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetTracker.swift; sourceTree = "<group>"; };
 		9E6240662BBB1C3C0030281D /* OffsetCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetCarView.swift; sourceTree = "<group>"; };
+		9E62406B2BBBF8D50030281D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		9E62406D2BBBF9E10030281D /* SuperchargerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperchargerModel.swift; sourceTree = "<group>"; };
+		9E6240702BBBFA7D0030281D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		9ED72D562BB4195800E00A8D /* myCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED72D592BB4195800E00A8D /* MyCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarApp.swift; sourceTree = "<group>"; };
 		9ED72D5D2BB4195A00E00A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -154,6 +160,23 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		9E62406A2BBBF8C60030281D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E62406B2BBBF8D50030281D /* UserModel.swift */,
+				9E62406D2BBBF9E10030281D /* SuperchargerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E62406F2BBBFA690030281D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9E6240702BBBFA7D0030281D /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		9ED72D4D2BB4195800E00A8D = {
 			isa = PBXGroup;
 			children = (
@@ -176,7 +199,9 @@
 				9EE579362BB56F4B00779448 /* Fonts */,
 				9ED72D592BB4195800E00A8D /* MyCarApp.swift */,
 				9EE579342BB56DD700779448 /* ThemeManager.swift */,
+				9E62406F2BBBFA690030281D /* ViewModels */,
 				9E3FA9012BB7378100A3DAC3 /* Views */,
+				9E62406A2BBBF8C60030281D /* Models */,
 				9EE5794A2BB5702000779448 /* Resources */,
 				9E3FA91B2BB8150500A3DAC3 /* Supporting Files */,
 				9ED72D602BB4195A00E00A8D /* Preview Content */,
@@ -321,11 +346,14 @@
 				9E6240592BB9D0EF0030281D /* HeadingEnvironments.swift in Sources */,
 				9E6240672BBB1C3C0030281D /* OffsetCarView.swift in Sources */,
 				9E6240602BBAB7C00030281D /* HomeView.swift in Sources */,
+				9E62406C2BBBF8D50030281D /* UserModel.swift in Sources */,
 				9E3FA91D2BB82FFF00A3DAC3 /* StatisticItemView.swift in Sources */,
 				9E6240572BB9CBE50030281D /* HeadingView.swift in Sources */,
 				9E62405D2BBAAD160030281D /* CircleProgressBarView.swift in Sources */,
 				9EE579352BB56DD700779448 /* ThemeManager.swift in Sources */,
 				9E6240622BBB0FCD0030281D /* CarEnvironments.swift in Sources */,
+				9E6240712BBBFA7D0030281D /* UserViewModel.swift in Sources */,
+				9E62406E2BBBF9E10030281D /* SuperchargerModel.swift in Sources */,
 				9E62405B2BBAA95D0030281D /* CarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
