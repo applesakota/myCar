@@ -25,12 +25,12 @@ struct OffsetCarView: View {
             VStack(alignment: .leading) {
                 Text(title)
                       .themedFont(.regular, style: .callout)
-                      .themeForegroundStyle(.solidGray)
+                      .themeForegroundStyle(titleColor)
                       .multilineTextAlignment(.leading)
                   
                   Text(value)
                       .themedFont(.bold, style: .callout)
-                      .themeForegroundStyle(.solidGray)
+                      .themeForegroundStyle(valueColor)
                       .multilineTextAlignment(.leading)
             }
             

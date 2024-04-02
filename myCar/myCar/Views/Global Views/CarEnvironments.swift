@@ -8,27 +8,27 @@
 import SwiftUI
 
 private struct CarTitleColorKey: EnvironmentKey {
-    static let defaultValue: ThemeColorIdentifier = .black
+    static let defaultValue: ThemeColorIdentifier = .solidGray
 }
 
 private struct CarValueColorKey: EnvironmentKey {
-    static let defaultValue: ThemeColorIdentifier = .black
+    static let defaultValue: ThemeColorIdentifier = .solidGray
 }
 
 private struct CarDescriptionColorKey: EnvironmentKey {
-    static let defaultValue: ThemeColorIdentifier = .black
+    static let defaultValue: ThemeColorIdentifier = .solidGray
 }
 
 private struct CarCircleIconColorKey: EnvironmentKey {
-    static let defaultValue: ThemeColorIdentifier = .black
+    static let defaultValue: ThemeColorIdentifier = .solidGray
 }
 
 private struct CarCircleValueColorKey: EnvironmentKey {
-    static let defaultValue: ThemeColorIdentifier = .black
+    static let defaultValue: ThemeColorIdentifier = .solidGray
 }
 
 private struct CarCircleStrokeColorKey: EnvironmentKey {
-    static let defaultValue: ThemeColorIdentifier = .black
+    static let defaultValue: ThemeColorIdentifier = .solidGray
 }
 
 
