@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct UserModel: Identifiable, Equatable, Hashable {
+struct UserModel: Identifiable, Equatable, Hashable, Codable {
 
     //MARK: - Identifiable
     
