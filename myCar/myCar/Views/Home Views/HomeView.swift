@@ -93,7 +93,7 @@ struct HomeView: View {
                             }
                             .headingValueColor(.rawValue(.gray))
                             
-                            ForEach(user.supercharges, id: \.self) { supercharger in
+                            ForEach(user.supercharges, id: \.id) { supercharger in
                                 SuperchargerView(title: supercharger.name, value: "\(supercharger.availability) available", distance: "\(supercharger.distance) km", icon: "location-dot-solid")
                                     .superchargerIconColor(.rawValue(.gray))
                                     .superchargerTitleColor(.black)

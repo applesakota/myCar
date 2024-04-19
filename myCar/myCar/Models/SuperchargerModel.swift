@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct SuperchargerModel: Identifiable, Equatable, Hashable {
+struct SuperchargerModel: Identifiable, Equatable, Hashable, Codable {
     
     //MARK: - Identifiable
     

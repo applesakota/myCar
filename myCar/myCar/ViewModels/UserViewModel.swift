@@ -22,6 +22,8 @@ class UserViewModel: ObservableObject {
     
     private func apiFetchData() async -> UserModel {
         do {
+            return try await loadUserFromJSON()
+        } catch {
             return UserModel.userModelInstance
         }
     }

@@ -1,0 +1,53 @@
+{
+    "id": "someUserIdString123456789",
+    "name": "User from JSON",
+    "car": "Tesla Model X",
+    "carBattery": 50,
+    "voltage": 240,
+    "batteryLength": 540,
+    "fastCharger": 20,
+    "supercharges": [
+        {
+            "id": "someSuperChargeIdString1",
+            "name": "Ranchview Dr. Richardson",
+            "availability": "4 / 10",
+            "distance": 1.2
+        },
+        {
+            "id": "someSuperChargeIdString2",
+            "name": "Thorniridge Cir. Shiloh",
+            "availability": "5 / 10",
+            "distance": 2.6
+        },
+        {
+            "id": "someSuperChargeIdString3",
+            "name": "Elgin St.Celina",
+            "availability": "8 / 10",
+            "distance": 4.3
+        },
+        {
+            "id": "someSuperChargeIdString4",
+            "name": "Westheier Rd. Santa Ana",
+            "availability": "3 / 10",
+            "distance": 5.4
+        },
+        {
+            "id": "someSuperChargeIdString5",
+            "name": "Strada General",
+            "availability": "4 / 10",
+            "distance": 1.2
+        },
+        {
+            "id": "someSuperChargeIdString6",
+            "name": "Strada Deltei",
+            "availability": "4 / 10",
+            "distance": 1.2
+        },
+        {
+            "id": "someSuperChargeIdString7",
+            "name": "Ranchview Dr. Richardson",
+            "availability": "4 / 10",
+            "distance": 1.2
+        }
+    ]
+}
