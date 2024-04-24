@@ -8,6 +8,11 @@ Electric car mobile app
 
 SwiftUI app 
 Working with design
+- MVVM
+- Custom Views
+- Environments
+- ObservableObjects
+- ViewModifiers
 <br />
 
 
