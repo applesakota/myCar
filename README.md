@@ -1,6 +1,6 @@
 # MyCar
+Electric car mobile app for demo purposes
 
-Electric car mobile app
 <br />
 <br />
 
